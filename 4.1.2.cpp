@@ -9,7 +9,7 @@ expressions to indicate the order in which the operands are grouped:
 (b) * vec.begin() + 1
 */
 
-int main1() {
+int main12() {
 
 	// 4.1 105
 	std::cout << (5 + 10 * 20 / 2) << std::endl;
