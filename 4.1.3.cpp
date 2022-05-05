@@ -1,4 +1,4 @@
-
+#include <iostream>
 
 /*
 
@@ -12,7 +12,18 @@ acceptable trade-off? Why or why not?
 	
 */
 
-int main13() {
+
+void foo(unsigned short x)
+{
+	std::cout << "x is an unsigned short" << std::endl;
+}
+
+void foo(int x)
+{
+	std::cout << "x is an int" << std::endl;
+}
+
+int main2() {
 
 	// 4.3
 	/*
@@ -24,5 +35,6 @@ int main13() {
 	*/
 
 
+	
 	return 0;
 }
