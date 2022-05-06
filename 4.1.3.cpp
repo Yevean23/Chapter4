@@ -13,16 +13,6 @@ acceptable trade-off? Why or why not?
 */
 
 
-void foo(unsigned short x)
-{
-	std::cout << "x is an unsigned short" << std::endl;
-}
-
-void foo(int x)
-{
-	std::cout << "x is an int" << std::endl;
-}
-
 int main2() {
 
 	// 4.3
