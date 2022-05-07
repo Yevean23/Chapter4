@@ -47,5 +47,17 @@ int main() {
 	// -30 / 3 * 21 % 4; -2
 	std::cout << -30 / 3 * 21 % 4 << std::endl;
 
+	//4.6
+	int eoo = 3;
+
+	if (eoo % 2 == 0) {
+		std::cout << eoo << " is even" << std::endl;
+	} else {
+		std::cout << eoo << " is odd" << std::endl;
+	}
+
+	//4.7
+	// Overflow happens when a value is computed that is outside the range of values that the type can represent.
+
 	return 0;
 }
