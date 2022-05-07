@@ -32,19 +32,19 @@ int main() {
 
 	// 4.5 
 	std::cout << 'a' << std::endl;
-	-30 * 3 + 21 / 5;
+	// -30 * 3 + 21 / 5; -86
 	std::cout << -30 * 3 + 21 / 5 << std::endl;
 
 	std::cout << 'b' << std::endl;
-	-30 + 3 * 21 / 5;
+	// -30 + 3 * 21 / 5; -18
 	std::cout << -30 + 3 * 21 / 5 << std::endl;
 
 	std::cout << 'c' << std::endl;
-	30 / 3 * 21 % 5;
+	// 30 / 3 * 21 % 5; 0
 	std::cout << 30 / 3 * 21 % 5 << std::endl;
 
 	std::cout << 'd' << std::endl;
-	-30 / 3 * 21 % 4;
+	// -30 / 3 * 21 % 4; -2
 	std::cout << -30 / 3 * 21 % 4 << std::endl;
 
 	return 0;
